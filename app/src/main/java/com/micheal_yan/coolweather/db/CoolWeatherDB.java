@@ -1,11 +1,13 @@
-package com.micheal_yan.coolweather.model;
+package com.micheal_yan.coolweather.db;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.micheal_yan.coolweather.db.CoolWeatherOpenHelper;
+import com.micheal_yan.coolweather.model.City;
+import com.micheal_yan.coolweather.model.County;
+import com.micheal_yan.coolweather.model.Province;
 
 import java.util.ArrayList;
 import java.util.List;
